@@ -30,3 +30,107 @@
     <p>© 2025 OM Bhardwaj | All Rights Reserved</p>
   </footer>
 </body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Om Bhardwaj - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0a0f24, #1f2b70, #0b0f19);
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+      font-style: italic;
+      margin-top: 60px;
+      text-shadow: 0 0 15px #00ffff;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00ffff; }
+      to { text-shadow: 0 0 25px #00ffea; }
+    }
+
+    .college {
+      font-size: 22px;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #ffcc00;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    .contact {
+      margin-top: 50px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .contact img {
+      width: 25px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .loader {
+      margin: 80px auto;
+      border: 8px solid #1f1f1f;
+      border-top: 8px solid #00ffea;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .next-btn {
+      margin-top: 50px;
+      font-size: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      animation: blinkColor 1s infinite;
+    }
+
+    @keyframes blinkColor {
+      0% { background: #ff0000; color: white; }
+      25% { background: #00ff00; color: black; }
+      50% { background: #0000ff; color: white; }
+      75% { background: #ff00ff; color: white; }
+      100% { background: #00ffff; color: black; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Project Created by <span style="color:#00ffff;">Om Bhardwaj</span></h1>
+  <div class="college">Government Polytechnic, Manesar</div>
+
+  <div class="loader"></div>
+
+  <div class="contact">
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail"> <a href="mailto:bhardwajom002@gmail.com" style="color:#00ffff;">bhardwajom002@gmail.com</a></p>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn"> <a href="https://www.linkedin.com/in/om-bhardwaj-222138253" target="_blank" style="color:#00ffff;">LinkedIn Profile</a></p>
+    <p>📞 Contact: 9817179377</p>
+  </div>
+
+  <button class="next-btn" onclick="window.location.href='page2.html'">Next ➜</button>
+</body>
+</html>
+
+
